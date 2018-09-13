@@ -3,6 +3,7 @@ package com.kiritor;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -170,6 +171,16 @@ public class HomeActivity extends Activity implements MultiChoiceModeListener {
 					: mSelectMap.get(position));
 			return item;
 		}
+	}
+	
+	public static void show_message_cancle_activity(){
+		System.out.println("开始showMessage------->ok");
+		
+		System.out.println("第二次编辑内容");
+		
+		System.out.println("第三次提交内容");
+		
+		System.out.println("第四次提交内容");
 	}
 
 }
