@@ -117,6 +117,11 @@ public class HomeActivity extends Activity implements MultiChoiceModeListener {
 	}
 
 	/** Override MultiChoiceModeListener end **/
+	/**
+	 * Õâ¸öÊÇHomeActivty
+	 * @param count
+	 * @return
+	 */
 
 	private String formatString(int count) {
 		return String.format(getString(R.string.selection), count);
