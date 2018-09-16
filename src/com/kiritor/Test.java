@@ -3,6 +3,8 @@ package com.kiritor;
 public class Test {
 	
 	public static void show_message_ok(){
+		
+		System.out.println("葵花宝典修炼成功");
 	      
 		System.out.println("分支了内容");
 		
